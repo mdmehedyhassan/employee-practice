@@ -8,6 +8,5 @@
 
 ## Technology
 1. React.js
-2. JavaScript
-3. CSS
+2. CSS
 
