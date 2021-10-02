@@ -1,0 +1,45 @@
+.main-div{
+    display: flex;
+}
+.main-cart{
+  display: grid;
+  grid-gap: auto;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  width: 70%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid rgb(222, 230, 173);
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: lightblue;
+  }
+#total-tr{
+    background-color: red;
+    color: white;
+}
+
+@media screen and (max-width: 1300px) {
+    .main-cart {
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width: 800px) {
+    .main-cart {
+        grid-template-columns: auto;
+        width: 100%;
+    }
+    .main-div{
+        flex-direction: column-reverse;
+    }
+}
