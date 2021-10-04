@@ -22,10 +22,10 @@ table {
   }
   
   tr:nth-child(even) {
-    background-color: lightblue;
+    background-color: rgb(7, 196, 61);
   }
-#total-tr{
-    background-color: red;
+.total-tr{
+    background-color: red !important;
     color: white;
 }
 

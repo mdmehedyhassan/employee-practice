@@ -29,7 +29,7 @@ const Main = () => {
             <div className="main-info">
                 <h1>Total Employee: {infoData.length}</h1>
                 <table>
-                    <tr>
+                    <tr className="total-tr">
                         <th>Image</th>
                         <th>Name</th>
                         <th>Salary</th>
@@ -43,7 +43,7 @@ const Main = () => {
                         </tr>
                         ))
                     }
-                    <tr id="total-tr">
+                    <tr className="total-tr">
                         <th>Total Compony budget: </th>
                         <th> --- </th>
                         <th>{total}</th>
